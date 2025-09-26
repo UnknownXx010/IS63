@@ -6,6 +6,12 @@
   <title>BELAJAR WEB PROGRAMMING</title>
 </head>
 <body>
-  
+  <?php
+  $alas = 30;
+  $tinggi = 90;
+  $luas= 1/2 * $alas *$tinggi;
+ 
+  echo "Sebuah segitiga memiliki alas sepanjang 30 cm dan tinggi 90 cm. luas segitiga:$luas  "
+  ?>
 </body>
 </html>
