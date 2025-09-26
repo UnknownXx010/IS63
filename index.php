@@ -11,9 +11,10 @@
   $tinggi = 90;
   $luas= 1/2 * $alas *$tinggi;
  
-  echo "Sebuah segitiga memiliki alas sepanjang 30 cm dan tinggi 90 cm.";
+  echo "<H1>sebuah segitiga memiliki alas sepanjang 30 cm dan tinggi 90 cm.<H1>";
   echo "<br>";
-  echo "<b>luas segitiga : $luas<b>";
+  echo "<h1>JAWAB<H1>";     
+  echo "<H2><b>luas segitiga : $luas<b><H2>";
 
   ?>
 </body>
