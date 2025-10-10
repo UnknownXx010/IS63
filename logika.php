@@ -8,10 +8,19 @@
 <body>
   <?php 
 
-  $nilai =70;
-  if($nilai >50);{
-   echo "kamu lulus";
-  }
+$nama ="higan";
+$nilai =100;
+
+if($nilai >=70){
+  echo "<h2>$nama,selamat kamu lulus </h2>";
+}elseif($nilai >=40 ){
+  echo "<h2>$nama,maaf belum lulus </h2>";
+}else{
+  echo "<h2>$nama,hati hati kamu remedial </h2>";
+}
+    
+   
+  
   ?>
 
 </body>
